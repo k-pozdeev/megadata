@@ -18,7 +18,7 @@ class MegaDataExtension extends Extension
         $loader->load('mega_data.yml');
     }
 
-    public static function getAlias()
+    public function getAlias()
     {
         return 'mega_data';
     }
