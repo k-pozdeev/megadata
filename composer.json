@@ -83,16 +83,16 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Symfony\\Bundle\\FrameworkBundle\\" : ""
+			"MegaData\\MegaDataBundle\\" : ""
 		},
 		"exclude-from-classmap" : [
 			"/Tests/"
 		]
 	},
-	"minimum-stability" : "dev",
-	"extra" : {
-		"branch-alias" : {
-			"dev-master" : "4.1-dev"
+	"autoload-dev" : {
+		"psr-4" : {
+			"MegaData\\MegaDataBundle\\" : ""
 		}
-	}
+	},
+	"minimum-stability" : "dev"
 }
