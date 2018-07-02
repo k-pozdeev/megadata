@@ -15,6 +15,6 @@ class MegaDataExtension extends Extension
             $container,
             new FileLocator(__DIR__ . '/../Resources/config')
         );
-        $loader->load('mega_data.yml');
+        $loader->load('mega_data.yaml');
     }
 }
