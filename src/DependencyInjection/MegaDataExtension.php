@@ -13,7 +13,7 @@ class MegaDataExtension extends Extension
     {
         $loader = new YamlFileLoader(
             $container,
-            new FileLocator('@MegaDataBundle/Resources/config')
+            new FileLocator(__DIR__ . '/../Resources/config')
         );
         $loader->load('mega_data.yml');
     }
