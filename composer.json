@@ -1,5 +1,5 @@
 {
-    "name" : "megadata/acme-megadata-bundle",
+    "name" : "mega-data/mega-data-bundle",
     "type" : "symfony-bundle",
     "description" : "Acme MegaData API Wrapper",
     "homepage" : "https://example.com",
