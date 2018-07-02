@@ -16,4 +16,4 @@ services:
         class: MegaData\MegaDataBundle\Services\Api\Api
         factory: ['@MegaData\MegaDataBundle\Services\Api\Factory', 'createInstance']
         tags:
-            - { name: 'mega_data', alias: 'mega_data' }
+            - { name: MegaData\MegaDataBundle\Services\Api\Api, alias: 'mega_data' }
