@@ -1,0 +1,14 @@
+services:
+    MegaData\MegaDataBundle\Services\Api\Factory:
+        calls:
+            - method: setApiUrl
+              arguments: [ "%mega_data.api_url%" ]
+            - method: setFormat
+              arguments: [ "%mega_data.format%" ]
+
+    mega_data:
+        public: true
+        class: MegaData\MegaDataBundle\Services\Api\Api
+        factory: ['@MegaData\MegaDataBundle\Services\Api\Factory', 'createInstance']
+        tags:
+            - { name: 'mega_data', alias: 'mega_data' }

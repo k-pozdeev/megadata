@@ -1,0 +1,3 @@
+parameters:
+    mega_data.api_url: 'http://megadomain.com'
+    mega_data.format: 'json'
