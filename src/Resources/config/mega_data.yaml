@@ -1,3 +1,8 @@
+parameters:
+    mega_data.api_url: 'http://example.com'
+    mega_data.format: 'json'
+
+
 services:
     MegaData\MegaDataBundle\Services\Api\Factory:
         calls:

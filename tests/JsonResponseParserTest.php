@@ -1,6 +1,6 @@
 <?php
 
-namespace MegaData\MegaDataBundle\Tests;
+namespace Tests\MegaData\MegaDataBundle;
 
 use MegaData\MegaDataBundle\Services\Api\Response\JsonResponseParser;
 use MegaData\MegaDataBundle\Services\Api\Response\Response;
